@@ -1,0 +1,5 @@
+Pix2Pix_model_v11
+Changed to a pix2pix model in order to test a greater network for generator and discriminator. Generator: U-Net, Discriminator: PatchGAN. beta_1 to 0 and b2 to 0.9 - According to Improved Training of Wasserstein GANs, 2017. Changed learning rate on Adam. Changed Beta
+pix2pix
+[-1,1]
+True

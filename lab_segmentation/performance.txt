@@ -1,0 +1,44 @@
+# Given model: 
+	* loss: 0.1643 - accuracy: 0.9170 - val_loss: 0.1470 - val_accuracy: 0.9225
+	* Test Loss:  0.1425 Test Accuracy:  0.9258
+
+# 1 Reduced layer sizes without up and downsampling
+	* 115ms/step - loss: 0.1917 - accuracy: 0.9121 - val_loss: 0.1534 - val_accuracy: 0.9199
+	* Test Loss:  0.1471 Test Accuracy:  0.9257
+
+# 2 Reduced layer sizes with up and downsampling
+	* 106ms/step - loss: 0.1974 - accuracy: 0.9114 - val_loss: 0.1553 - val_accuracy: 0.9184
+	* Test Loss:  0.1494 Test Accuracy:  0.9239
+
+# 3 Added 5 epochs
+	* 98ms/step - loss: 0.1095 - accuracy: 0.9479 - val_loss: 0.1078 - val_accuracy: 0.9462
+	* Test Loss:  0.1016 Test Accuracy:  0.9508
+
+# 4 Added dropout(0.2) and batchnormalization after second activation
+	* 100ms/step - loss: 0.0861 - accuracy: 0.9591 - val_loss: 0.0872 - val_accuracy: 0.9555
+	* Test Loss:  0.0813 Test Accuracy:  0.9594
+
+# 5 Added drouput(0.2) and batchnormalization after third conv
+	* 97ms/step - loss: 0.0900 - accuracy: 0.9575 - val_loss: 0.0935 - val_accuracy: 0.9568
+	* Test Loss:  0.0883 Test Accuracy:  0.0883
+
+# 6 Added one more conv layer (third one) with dropout and batchnormalization and remove previous added things
+	* 96ms/step - loss: 0.0796 - accuracy: 0.9628 - val_loss: 0.0784 - val_accuracy: 0.9617
+	* Test Loss:  0.0714 Test Accuracy:  0.9658
+	- No effect so removed
+# 7 Added l2 regularization
+	* 98ms/step - loss: 0.1682 - accuracy: 0.9144 - val_loss: 0.1722 - val_accuracy: 0.9151
+	* Test Loss:  0.1662 Test Accuracy:  0.9212
+	- Worse result
+# 8 Changed from relu to tanh
+	* 100ms/step - loss: 0.1707 - accuracy: 0.9131 - val_loss: 0.1905 - val_accuracy: 0.9093
+	* Test Loss:  0.1859 Test Accuracy:  0.9151
+
+# Relu, removed l2, added skip connection for a layer after second one.
+	* 96ms/step - loss: 0.1183 - accuracy: 0.9443 - val_loss: 0.1137 - val_accuracy: 0.9426
+	* Test Loss:  0.1068 Test Accuracy:  0.9471
+
+* Notes: L2 performed horrible
+# New model
+oss: 0.0956 - accuracy: 0.9553 - val_loss: 0.0894 - val_accuracy: 0.9565
+Test Loss:  0.0834 Test Accuracy:  0.961

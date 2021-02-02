@@ -1,0 +1,5 @@
+Pix2Pix_model_v1
+Changed to a pix2pix model in order to test a greater network for generator and discriminator. Generator: U-Net, Discriminator: PatchGAN
+pix2pix
+[-1,1]
+True

@@ -1,0 +1,1 @@
+Changed to a pix2pix model in order to test a greater network for generator and discriminator. Generator: U-Net, Discriminator: PatchGAN. Lowered learning rate on Adam. beta_1 to 0

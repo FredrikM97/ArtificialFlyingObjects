@@ -1,0 +1,5 @@
+Pix2Pix_model_v5
+Changed to a pix2pix model in order to test a greater network for generator and discriminator. Generator: U-Net, Discriminator: PatchGAN. Changed Discriminator optimizer to SGD. Lowered learning rate for SGD to 2e-4
+pix2pix
+[-1,1]
+True

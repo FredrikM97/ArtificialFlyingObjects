@@ -1,0 +1,5 @@
+Pix2Pix_model_v3
+Changed to a pix2pix model in order to test a greater network for generator and discriminator. Generator: U-Net, Discriminator: PatchGAN. Changed Discriminator optimizer to SGD. Disable Jitter. 
+pix2pix
+[-1,1]
+False

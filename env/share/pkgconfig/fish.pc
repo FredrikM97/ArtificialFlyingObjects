@@ -1,0 +1,10 @@
+prefix=/home/stud1/f/fremar16/Deep_learning/env
+datadir=/home/stud1/f/fremar16/Deep_learning/env/share
+completionsdir=/usr/local/share/fish/vendor_completions.d
+functionsdir=/usr/local/share/fish/vendor_functions.d
+confdir=/usr/local/share/fish/vendor_conf.d
+
+Name: fish
+Description: fish, the friendly interactive shell
+URL: https://fishshell.com/
+Version: 3.1.2

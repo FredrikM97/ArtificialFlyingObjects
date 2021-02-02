@@ -1,0 +1,5 @@
+segmentation_model_v2
+Model based on segmentation lab. Change from tanh to sigmoid and changing distribution to 0-1 instead of -1 and 1
+pix2pix
+[0,1]
+True

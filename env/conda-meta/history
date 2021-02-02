@@ -1,0 +1,20 @@
+==> 2020-12-10 23:09:10 <==
+# cmd: /home/stud/f/fremar16/miniconda3/bin/conda create --prefix ./env
+# conda version: 4.9.2
+==> 2021-02-02 13:47:36 <==
+# cmd: /home/stud/f/fremar16/miniconda3/bin/conda install -c conda-forge fish
+# conda version: 4.9.2
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-1_gnu
++conda-forge/linux-64::bzip2-1.0.8-h7f98852_4
++conda-forge/linux-64::fish-3.1.2-h9adc612_1
++conda-forge/linux-64::gettext-0.19.8.1-h0b5b191_1005
++conda-forge/linux-64::libffi-3.3-h58526e2_2
++conda-forge/linux-64::libgcc-ng-9.3.0-h2828fa1_18
++conda-forge/linux-64::libgomp-9.3.0-h2828fa1_18
++conda-forge/linux-64::libstdcxx-ng-9.3.0-h6de172a_18
++conda-forge/linux-64::ncurses-6.2-h58526e2_4
++conda-forge/linux-64::pcre2-10.36-h032f7d1_0
++conda-forge/linux-64::readline-8.0-he28a2e2_2
++conda-forge/linux-64::zlib-1.2.11-h516909a_1010
+# update specs: ['fish']
